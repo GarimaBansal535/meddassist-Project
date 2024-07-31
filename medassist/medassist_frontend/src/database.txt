@@ -1,0 +1,42 @@
+states
+------
+stateid
+statename
+
+city
+------
+cityid
+stateid
+cityname
+
+category
+--------
+categoryid
+categoryname
+categoryicon
+
+doctors
+-------
+categoryid fk
+doctorid pk
+doctorname
+gender
+dob
+address
+stateid fk
+cityid fk
+emailid
+mobileno
+qualification
+photograph
+
+
+timings
+----------
+
+timingid   pk
+doctorid fk
+starttiming
+endtiming
+days
+status
